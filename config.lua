@@ -307,7 +307,8 @@ lvim.plugins = {
 
 lvim.transparent_window = true
 lvim.builtin.lualine.style = "lvim"
-lvim.builtin.lualine.options.theme = 'catppuccin'
+lvim.builtin.lualine.options.theme = "catppuccin"
+lvim.builtin.lualine.options.section_separators = { left = '', right = '' }
 lvim.builtin.treesitter.rainbow.enable = true
 
 -- -- Autocommands (`:help autocmd`) <https://neovim.io/doc/user/autocmd.html>
