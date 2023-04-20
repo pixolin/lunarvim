@@ -1,0 +1,34 @@
+{
+  "plugin": {
+    "prefix": "plugin",
+    "body": [
+      "/**",
+      "* ${1:plugin-name}",
+      " *",
+      " * @package           $1",
+      " * @author            Bego Mario Garde",
+      " * @copyright         2023 Bego Mario Garde",
+      " * @license           GPL-2.0-or-later",
+      " *",
+      " * @wordpress-plugin",
+      " * Plugin Name:       $1",
+      " * Plugin URI:        https://github.com/pixolin/",
+      " * Description:       ${2:plugin-description}",
+      " * Version:           0.1.0",
+      " * Author:            Bego Mario Garde",
+      " * Author URI:        https://pixolin.de/",
+      " * License:           GPL v2 or later",
+      " * License URI:       https://www.gnu.org/licenses/gpl-2.0.html",
+      " * Text Domain:       $1",
+      " * Domain Path:       /languages",
+      " */",
+      "",
+      "namespace Pixolin;",
+      "",
+      "defined( 'ABSPATH' ) || exit;",
+      "",
+      "$0"
+    ],
+    "description": "WordPress Plugin Header"
+  }
+}
